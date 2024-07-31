@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senior iOS Developer Experience</title>
+    <title>Varun Parashar Sribhashyam's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
             background-color: #f4f4f4;
             color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
             text-align: center;
         }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 1em;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
         h1 {
+            margin-top: 0;
             font-size: 2.5em;
-            margin-bottom: 1em;
         }
         .project {
             margin: 2em 0;
@@ -26,99 +38,136 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             background-color: #fff;
-            width: 80%;
-            max-width: 800px;
         }
         h2 {
             font-size: 2em;
             margin-bottom: 0.5em;
+            color: #333;
         }
         ul {
             list-style-type: disc;
-            text-align: left;
-            max-width: 600px;
-            margin: auto;
             padding-left: 20px;
         }
         li {
             margin-bottom: 0.5em;
         }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact {
+            margin-top: 2em;
+        }
     </style>
 </head>
 <body>
-    <h1>Senior iOS Developer Experience</h1>
-    
-    <div class="project">
-        <h2>Project 1: Neiman Marcus Group</h2>
-        <ul>
-            <li>Developed pixel-perfect UI components using SwiftUI, ensuring a seamless user experience.</li>
-            <li>Implemented complex features, including account management and transaction history, using Swift and Objective-C.</li>
-            <li>Optimized performance and responsiveness by profiling and tuning the app with Instruments.app.</li>
-            <li>Conducted A/B testing and analyzed user feedback to iterate and improve app features.</li>
-            <li>Refined the codebase by refactoring legacy code and applying best practices for code quality.</li>
-            <li>Mentored junior developers, providing guidance on Swift and iOS best practices.</li>
-            <li>Collaborated with designers and product managers to translate requirements into functional features.</li>
-            <li>Integrated third-party APIs and services for enhanced app functionality and user experience.</li>
-        </ul>
-    </div>
-    
-    <div class="project">
-        <h2>Project 2: NTT Data, Avinet</h2>
-        <ul>
-            <li>Engineered new product features using Swift and SwiftUI, focusing on creating intuitive user interfaces.</li>
-            <li>Performed thorough unit testing to ensure code reliability and prevent regressions.</li>
-            <li>Reviewed and improved application performance through code profiling and optimization techniques.</li>
-            <li>Utilized TestFlight for beta testing and gathered user feedback to guide development efforts.</li>
-            <li>Enhanced code maintainability by implementing modular design patterns and continuous integration practices.</li>
-            <li>Led code reviews and shared knowledge on advanced iOS development techniques with the team.</li>
-            <li>Managed deployment and updates to the Apple App Store, ensuring compliance with submission guidelines.</li>
-            <li>Worked on creating robust documentation and training materials for new features and tools.</li>
-        </ul>
-    </div>
-    
-    <div class="project">
-        <h2>Project 3: USAA</h2>
-        <ul>
-            <li>Designed and developed new features in Swift to track and visualize health metrics.</li>
-            <li>Utilized SwiftUI to craft dynamic and responsive user interfaces that adapt to various device sizes.</li>
-            <li>Implemented performance monitoring and optimization strategies to enhance app efficiency.</li>
-            <li>Conducted user research and experiments to validate feature effectiveness and user satisfaction.</li>
-            <li>Ensured high code quality and test coverage through rigorous unit and UI testing practices.</li>
-            <li>Collaborated with cross-functional teams to integrate health data APIs and ensure data security.</li>
-            <li>Refined the app based on customer feedback, continuously iterating to meet user needs.</li>
-            <li>Provided support and mentorship to team members, fostering a collaborative and innovative development environment.</li>
-        </ul>
-    </div>
-    
-    <div class="project">
-        <h2>Project 4: BCBS MA</h2>
-        <ul>
-            <li>Developed engaging social networking features using Swift and SwiftUI to enhance user interactions.</li>
-            <li>Optimized app performance by identifying and addressing bottlenecks and memory leaks.</li>
-            <li>Led the implementation of unit tests and automated UI tests to ensure application stability.</li>
-            <li>Worked with UX/UI designers to create user-friendly interfaces and interactive elements.</li>
-            <li>Utilized Apple’s TestFlight to manage beta testing phases and collect user feedback for improvements.</li>
-            <li>Mentored junior developers on best practices for iOS development and Swift programming.</li>
-            <li>Collaborated on codebase improvements and introduced new tools and technologies to the development process.</li>
-            <li>Managed app updates and releases on the App Store, handling all aspects of the submission process.</li>
-        </ul>
+
+    <header>
+        <h1>Varun Parashar Sribhashyam</h1>
+        <p>Senior iOS Developer & Portfolio</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Highly skilled iOS Developer with over 8 years of experience in designing, developing, and maintaining high-quality mobile applications. Proficient in Swift, SwiftUI, and Objective-C, with a strong background in optimizing performance and enhancing user experiences. Adept at mentoring teams and collaborating effectively to deliver exceptional products.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="project">
+                <h2>Mobile Banking App</h2>
+                <ul>
+                    <li>Developed pixel-perfect UI components using SwiftUI for a seamless user experience.</li>
+                    <li>Implemented account management and transaction features using Swift and Objective-C.</li>
+                    <li>Optimized performance with Instruments.app for improved efficiency.</li>
+                    <li>Conducted A/B testing and gathered user feedback to refine features.</li>
+                    <li>Refactored legacy code and applied best practices to enhance code quality.</li>
+                    <li>Mentored junior developers on iOS best practices and Swift programming.</li>
+                    <li>Collaborated with designers and product managers for functional features.</li>
+                    <li>Integrated third-party APIs to enrich app functionality.</li>
+                </ul>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h2>E-Commerce Platform</h2>
+                <ul>
+                    <li>Engineered new product features with Swift and SwiftUI for intuitive UI.</li>
+                    <li>Performed unit and UI testing to ensure code reliability.</li>
+                    <li>Enhanced performance through code profiling and optimization.</li>
+                    <li>Utilized TestFlight for beta testing and user feedback collection.</li>
+                    <li>Improved code maintainability with modular design patterns.</li>
+                    <li>Led code reviews and shared advanced iOS development techniques.</li>
+                    <li>Managed app deployment and updates on the Apple App Store.</li>
+                    <li>Created comprehensive documentation and training resources.</li>
+                </ul>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <h2>Health Tracking App</h2>
+                <ul>
+                    <li>Designed features in Swift to track and visualize health metrics.</li>
+                    <li>Built responsive interfaces with SwiftUI for various device sizes.</li>
+                    <li>Implemented performance monitoring and optimization strategies.</li>
+                    <li>Conducted user research and experiments to validate features.</li>
+                    <li>Ensured high code quality through unit and UI testing.</li>
+                    <li>Collaborated on health data API integrations and data security.</li>
+                    <li>Refined the app based on customer feedback and iterative improvements.</li>
+                    <li>Provided mentorship and support to team members.</li>
+                </ul>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project">
+                <h2>Social Networking App</h2>
+                <ul>
+                    <li>Developed social networking features with Swift and SwiftUI.</li>
+                    <li>Optimized app performance by addressing bottlenecks and memory leaks.</li>
+                    <li>Implemented comprehensive testing practices for stability.</li>
+                    <li>Worked with UX/UI designers for user-friendly interfaces.</li>
+                    <li>Utilized TestFlight for beta testing and feedback collection.</li>
+                    <li>Mentored junior developers and promoted best practices.</li>
+                    <li>Introduced new tools and technologies for development improvements.</li>
+                    <li>Managed app updates and releases on the App Store.</li>
+                </ul>
+            </div>
+
+            <!-- New Project -->
+            <div class="project">
+                <h2>On-Demand Delivery App</h2>
+                <ul>
+                    <li>Developed features for real-time delivery tracking using Swift.</li>
+                    <li>Built responsive UI with SwiftUI for different screen sizes.</li>
+                    <li>Integrated third-party services for location tracking and payments.</li>
+                    <li>Optimized network requests and data handling for performance.</li>
+                    <li>Conducted comprehensive testing to ensure app robustness.</li>
+                    <li>Collaborated on defining features based on user feedback.</li>
+                    <li>Provided mentorship to team members on iOS development practices.</li>
+                    <li>Managed deployment and updates to the Apple App Store.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to discuss potential opportunities, please feel free to reach out to me:</p>
+            <p>Email: <a href="mailto:varunparashar234@gmail.com">varunparashar234@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/varun-parashar-sribhashyam-134b53131" target="_blank">linkedin.com/in/varun-parashar-sribhashyam-134b53131</a></p>
+        </section>
     </div>
 
-    <div class="project">
-        <h2>Project 5: WEX</h2>
-        <ul>
-            <li>Designed and developed high-performance features in Swift to facilitate real-time delivery tracking and notifications.</li>
-            <li>Utilized SwiftUI to build a responsive and intuitive user interface that adapts to various screen sizes and orientations.</li>
-            <li>Integrated with multiple third-party services for location tracking, payment processing, and push notifications.</li>
-            <li>Implemented comprehensive unit tests and UI tests to ensure the robustness and reliability of the application.</li>
-            <li>Optimized application performance by profiling and fine-tuning network requests and data handling.</li>
-            <li>Collaborated with the product team to define and prioritize new features based on user feedback and business needs.</li>
-            <li>Conducted code reviews and provided mentorship to junior developers, promoting best practices and knowledge sharing.</li>
-            <li>Managed the deployment process to the Apple App Store, including handling updates and resolving submission issues.</li>
-        </ul>
-    </div>
-
-    <!-- Add more projects as needed -->
+    <footer>
+        <p>&copy; 2024 Varun Parashar Sribhashyam. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
