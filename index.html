@@ -14,10 +14,20 @@
             box-sizing: border-box;
         }
         header {
-            background-color: #333;
+            background-color: #0044cc;
             color: #fff;
-            padding: 1em;
+            padding: 2em;
             text-align: center;
+            background-image: url('path/to/hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
         }
         .container {
             width: 80%;
@@ -28,9 +38,10 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            margin-top: 0;
+        h2 {
             font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color: #333;
         }
         .project {
             margin: 2em 0;
@@ -39,22 +50,9 @@
             border-radius: 5px;
             background-color: #fff;
         }
-        h2 {
-            font-size: 2em;
-            margin-bottom: 0.5em;
-            color: #333;
-        }
-        h3 {
-            font-size: 1.5em;
-            margin-bottom: 0.5em;
-            color: #666;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 0.5em;
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
         }
         footer {
             background-color: #333;
@@ -65,8 +63,8 @@
             width: 100%;
             bottom: 0;
         }
-        .contact {
-            margin-top: 2em;
+        .contact a {
+            color: #0044cc;
         }
     </style>
 </head>
@@ -74,13 +72,13 @@
 
     <header>
         <h1>Varun Parashar Sribhashyam</h1>
-        <p>Senior Android & iOS Developer And Portfolio</p>
+        <p>Senior iOS Developer | Mobile App Specialist</p>
     </header>
 
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Varun Parashar Sribhashyam, a passionate and dedicated Senior iOS Developer with over 8 years of experience in crafting high-quality mobile applications. I specialize in creating seamless and engaging user experiences using Swift, SwiftUI, and Objective-C.</p>
+            <p>Hello! I'm Varun Parashar Sribhashyam, a passionate Senior iOS Developer with over 8 years of experience in crafting high-quality mobile applications. I specialize in creating seamless and engaging user experiences using Swift, SwiftUI, and Objective-C.</p>
             
             <p>My expertise spans a wide range of iOS development practices, from designing intuitive interfaces to optimizing performance and ensuring code quality. I take pride in mentoring teams, implementing best practices, and collaborating closely with cross-functional teams to deliver exceptional products.</p>
             
@@ -88,22 +86,22 @@
             <ul>
                 <li><strong>Languages:</strong> Swift, SwiftUI, Objective-C, Java, C++</li>
                 <li><strong>Tools:</strong> Xcode, Instruments.app, TestFlight</li>
-                <li><strong>Methodologies:</strong> Agile, TDD (Test-Driven Development), A/B Testing</li>
+                <li><strong>Methodologies:</strong> Agile, TDD, A/B Testing</li>
                 <li><strong>APIs & Integrations:</strong> Third-Party APIs, RESTful Services</li>
             </ul>
             
             <h3>Achievements</h3>
             <ul>
-                <li>Successfully led a team in developing a flagship mobile app that increased user engagement by 30%.</li>
+                <li>Led development of a flagship mobile app, increasing user engagement by 30%.</li>
                 <li>Optimized app performance, reducing load times by 50% and improving user satisfaction.</li>
-                <li>Mentored over 10 junior developers, helping them to adopt best practices and enhance their coding skills.</li>
-                <li>Introduced innovative features that were recognized in industry awards for excellence in mobile app development.</li>
+                <li>Mentored over 10 junior developers, enhancing their coding skills and best practices.</li>
+                <li>Introduced award-winning features recognized in the industry for excellence.</li>
             </ul>
             
             <h3>My Approach</h3>
             <p>I believe in a user-centered approach to development, where user feedback and data-driven insights guide the design and implementation of features. My goal is to create applications that not only meet but exceed user expectations.</p>
             
-            <p>Feel free to explore my portfolio to see some of the exciting projects I've worked on, or contact me if you'd like to discuss potential opportunities or collaborations.</p>
+            <p>Explore my portfolio to see exciting projects I've worked on, or contact me to discuss opportunities or collaborations.</p>
         </section>
 
         <section id="projects">
@@ -112,16 +110,14 @@
             <!-- Project 1 -->
             <div class="project">
                 <h2>Neiman Marcus Group</h2>
+                <img src="path/to/neiman-marcus-image.jpg" alt="Neiman Marcus Group Project Screenshot">
                 <ul>
                     <li>Developed pixel-perfect UI components using SwiftUI for a seamless user experience.</li>
                     <li>Implemented account management and transaction features using Swift and Objective-C.</li>
-                    <li>Created and managed RESTful APIs to enable seamless communication between the front-end and back-end. Developed endpoints for product listings, user profiles, and order management, ensuring robust API documentation for front-end developers.</li>
-                    <li>Developed and optimized SQL (PostgreSQL) and NoSQL (MongoDB) database schemas to handle product inventories, user data, and transaction histories. Implemented efficient queries and indexing to ensure high performance.
-
-</li>
-                    <li>Refactored legacy code and applied best practices to enhance code quality.</li>
-                    <li>Mentored junior developers on iOS best practices and Swift programming.</li>
-                    <li>Collaborated with designers and product managers for functional features.</li>
+                    <li>Created and managed RESTful APIs for product listings, user profiles, and order management.</li>
+                    <li>Optimized SQL (PostgreSQL) and NoSQL (MongoDB) database schemas for high performance.</li>
+                    <li>Refactored legacy code to enhance quality and maintainability.</li>
+                    <li>Mentored junior developers and collaborated with designers and product managers.</li>
                     <li>Integrated third-party APIs to enrich app functionality.</li>
                 </ul>
             </div>
@@ -129,46 +125,41 @@
             <!-- Project 2 -->
             <div class="project">
                 <h2>NTT Data, Avient</h2>
+                <img src="path/to/ntt-data-image.jpg" alt="NTT Data Project Screenshot">
                 <ul>
                     <li>Engineered new product features with Swift and SwiftUI for intuitive UI.</li>
                     <li>Performed unit and UI testing to ensure code reliability.</li>
-                    <li>Designed and implemented RESTful APIs for user interactions, including posting updates, following users, and messaging. Ensured the APIs were well-documented and tested for reliability and ease of integration.</li>
-                    <li>Utilized MongoDB for flexible data storage, designing schemas for user profiles, posts, and messages. Conducted database optimizations and indexing to handle large volumes of social interactions efficiently.
-
-</li>
+                    <li>Designed and implemented RESTful APIs for user interactions.</li>
+                    <li>Utilized MongoDB for flexible data storage and optimized database performance.</li>
                     <li>Improved code maintainability with modular design patterns.</li>
-                    <li>Led code reviews and shared advanced iOS development techniques.</li>
-                    <li>Managed app deployment and updates on the Apple App Store.</li>
-                    <li>Created comprehensive documentation and training resources.</li>
+                    <li>Led code reviews and managed app deployment.</li>
                 </ul>
             </div>
 
             <!-- Project 3 -->
             <div class="project">
                 <h2>USAA</h2>
+                <img src="path/to/usaa-image.jpg" alt="USAA Project Screenshot">
                 <ul>
-                    <li>Designed features in Swift to track and visualize health metrics.</li>
+                    <li>Designed features to track and visualize health metrics using Swift.</li>
                     <li>Built responsive interfaces with SwiftUI for various device sizes.</li>
                     <li>Implemented performance monitoring and optimization strategies.</li>
                     <li>Conducted user research and experiments to validate features.</li>
-                    <li>Built and managed RESTful APIs for user authentication, chat history retrieval, and user profile management. Ensured comprehensive API documentation for ease of integration with the front-end.</li>
-                    <li>Collaborated on health data API integrations and data security.</li>
-                    <li>Refined the app based on customer feedback and iterative improvements.</li>
-                    <li>Implemented secure WebSocket connections and ensured encrypted communication between clients and the server. Applied best practices for user authentication and message encryption.</li>
+                    <li>Managed RESTful APIs for user authentication and chat history retrieval.</li>
+                    <li>Ensured secure WebSocket connections and encrypted communication.</li>
                 </ul>
             </div>
 
             <!-- Project 4 -->
             <div class="project">
                 <h2>BCBS MA</h2>
+                <img src="path/to/bcbs-ma-image.jpg" alt="BCBS MA Project Screenshot">
                 <ul>
                     <li>Developed social networking features with Swift and SwiftUI.</li>
-                    <li>Optimized app performance by addressing bottlenecks and memory leaks.</li>
-                    <li>Created and maintained RESTful APIs for course management, user enrollment, and progress tracking. Provided detailed API documentation and supported integration with the front-end and third-party services.</li>
+                    <li>Optimized app performance and addressed memory leaks.</li>
+                    <li>Maintained RESTful APIs for course management and user enrollment.</li>
                     <li>Worked with UX/UI designers for user-friendly interfaces.</li>
                     <li>Utilized TestFlight for beta testing and feedback collection.</li>
-                    <li>Mentored junior developers and promoted best practices.</li>
-                    <li>Utilized PostgreSQL for relational data management, designing schemas for courses, users, and grades. Implemented query optimizations and database migrations for performance and scalability.</li>
                     <li>Managed app updates and releases on the App Store.</li>
                 </ul>
             </div>
@@ -176,15 +167,14 @@
             <!-- New Project -->
             <div class="project">
                 <h2>WEX</h2>
+                <img src="path/to/wex-image.jpg" alt="WEX Project Screenshot">
                 <ul>
-                    <li>Developed features for real-time delivery tracking using Swift.</li>
-                    <li>Built responsive UI with SwiftUI for different screen sizes.</li>
+                    <li>Developed real-time delivery tracking features using Swift.</li>
+                    <li>Built responsive UI with SwiftUI for various screen sizes.</li>
                     <li>Integrated third-party services for location tracking and payments.</li>
-                    <li>Optimized network requests and data handling for performance.</li>
-                    <li>Applied performance enhancements such as query optimization, caching of financial data, and efficient data processing techniques to handle complex reporting requirements.</li>
-                    <li>Collaborated on defining features based on user feedback.</li>
-                    <li>Provided mentorship to team members on iOS development practices.</li>
-                    <li>Managed deployment and updates to the Apple App Store.</li>
+                    <li>Optimized network requests and data handling.</li>
+                    <li>Applied performance enhancements for complex reporting requirements.</li>
+                    <li>Provided mentorship and managed deployment to the App Store.</li>
                 </ul>
             </div>
         </section>
